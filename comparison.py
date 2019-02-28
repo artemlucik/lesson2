@@ -1,5 +1,5 @@
 def comperasion(string_1,string_2):
-	if type(string_1) != str or type(string_2) != str:
+	if isinstance(string_1, str) !=True or isinstance(string_2, str) !=True :
 		#print ('0')
 		return 0
 	elif string_1 == string_2:
@@ -15,4 +15,6 @@ def comperasion(string_1,string_2):
 str_1 = 'test'
 str_2 = 'learn'
 
-print(comperasion(str_1,str_2))
+
+if __name__ == '__main__':
+	print(comperasion(str_1,str_2))
