@@ -18,7 +18,7 @@ def ask_user(answers):
 				print('До встречи')
 				break
 
-			if answer == None:
+			if answer is None:
 				print(f'Сам ты {user_say}')
 			else:
 				print(answer)
@@ -26,5 +26,5 @@ def ask_user(answers):
 			print('Пока!')
 			break
 
-
-ask_user(answers)
+if __name__ == '__main__':
+	ask_user(answers)
