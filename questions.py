@@ -7,7 +7,6 @@ answers = {'привет':'Привет',
 def get_answer(question, answers):
 	return answers.get(question)
 
-
 def ask_user(answers):
 	while True:
 		try:
